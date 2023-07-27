@@ -34,33 +34,33 @@ for(let i = 1; i <=100; i++){
     }   
 }
 
-// Wild Wild Life
-//const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
-// const sharky = ["Sharky", "shark", 20, "Left Coast"]
-// const plantee = ["Plantee", "plant",  5000 , "Mordor"]
-// const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
-// const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
-//Plantee just had her birthday; change Plantee's array to reflect her being a year older.
-// plantee[2] = 5001
-// console.log(plantee)
+Wild Wild Life
+const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
+const sharky = ["Sharky", "shark", 20, "Left Coast"]
+const plantee = ["Plantee", "plant",  5000 , "Mordor"]
+const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
+const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
+Plantee just had her birthday; change Plantee's array to reflect her being a year older.
+plantee[2] = 5001
+console.log(plantee)
 
-// Change Wolfy's hometown from "Yukon Territory" to "Gotham City".
-// wolfy[3] = "Gotham City"
-// console.log(wolfy)
-// wolfy.pop()
-// console.log(wolfy)
-// wolfy.push("Gotham City")
-// console.log(wolfy)
-//?????????why cannot work use .replace()
+Change Wolfy's hometown from "Yukon Territory" to "Gotham City".
+wolfy[3] = "Gotham City"
+console.log(wolfy)
+wolfy.pop()
+console.log(wolfy)
+wolfy.push("Gotham City")
+console.log(wolfy)
+?????????why cannot work use .replace()
 
-// Give D'Art a second hometown by adding "Hawkins"
-// dart.push("Hawkins")
-// console.log(dart)
+Give D'Art a second hometown by adding "Hawkins"
+dart.push("Hawkins")
+console.log(dart)
 
-// wolfy.shift()
-// console.log(wolfy)
-// wolfy.unshift("Gameboy")
-// console.log(wolfy)
+wolfy.shift()
+console.log(wolfy)
+wolfy.unshift("Gameboy")
+console.log(wolfy)
 
 // Yell at the Ninja Turtles  
 // const turtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]

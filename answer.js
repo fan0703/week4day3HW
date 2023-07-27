@@ -1,14 +1,14 @@
-Easy Going
-Write a for loop that will log the numbers 1 through 20.
+// Easy Going
+// Write a for loop that will log the numbers 1 through 20.
 
 for(let i = 1; i <= 20; i++){
     console.log(i)
 }
 
-Get Even
-Write a for loop that will log only the even numbers in 0 through 200.
+// Get Even
+// Write a for loop that will log only the even numbers in 0 through 200.
 
-Hint: Think about the increment expression.
+// Hint: Think about the increment expression.
 
 for(let i = 1; i <=200; i++){
     if (i % 2 == 0){
@@ -16,13 +16,13 @@ for(let i = 1; i <=200; i++){
     }
 }
 
-Fizz Buzz
-This is a classic problem that you should get really comfortable solving. If you've solved it before, try to make it more elegant and short.
+// Fizz Buzz
+// This is a classic problem that you should get really comfortable solving. If you've solved it before, try to make it more elegant and short.
 
-Write a javascript application that logs all numbers from 1 - 100.
-If a number is divisible by 3 log "Fizz" instead of the number.
-If a number is divisible by 5 log "Buzz" instead of the number.
-If a number is divisible by 3 and 5 log "FizzBuzz" instead of the number.
+// Write a javascript application that logs all numbers from 1 - 100.
+// If a number is divisible by 3 log "Fizz" instead of the number.
+// If a number is divisible by 5 log "Buzz" instead of the number.
+// If a number is divisible by 3 and 5 log "FizzBuzz" instead of the number.
 
 for(let i = 1; i <=100; i++){
     if(i % 3 === 0 && i % 5 === 0) {
@@ -34,26 +34,26 @@ for(let i = 1; i <=100; i++){
     }   
 }
 
-Wild Wild Life
+//Wild Wild Life
 const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
 const sharky = ["Sharky", "shark", 20, "Left Coast"]
 const plantee = ["Plantee", "plant",  5000 , "Mordor"]
 const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
 const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
-Plantee just had her birthday; change Plantee's array to reflect her being a year older.
+//Plantee just had her birthday; change Plantee's array to reflect her being a year older.
 plantee[2] = 5001
 console.log(plantee)
 
-Change Wolfy's hometown from "Yukon Territory" to "Gotham City".
+//Change Wolfy's hometown from "Yukon Territory" to "Gotham City".
 wolfy[3] = "Gotham City"
 console.log(wolfy)
 wolfy.pop()
 console.log(wolfy)
 wolfy.push("Gotham City")
 console.log(wolfy)
-?????????why cannot work use .replace()
+//?????????why cannot work use .replace()
 
-Give D'Art a second hometown by adding "Hawkins"
+//Give D'Art a second hometown by adding "Hawkins"
 dart.push("Hawkins")
 console.log(dart)
 
@@ -63,13 +63,13 @@ wolfy.unshift("Gameboy")
 console.log(wolfy)
 
 // Yell at the Ninja Turtles  
-// const turtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
-// for(let k of turtles){
-//    console.log(k.toUpperCase()
-//   )
-// }
+const turtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
+for(let k of turtles){
+   console.log(k.toUpperCase()
+  )
+}
 
-// console.log(turtles.toUpperCase())
+console.log(turtles.toUpperCase())
 
 // Methods, Revisited
 //const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];

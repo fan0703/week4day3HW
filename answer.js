@@ -1,9 +1,9 @@
-// Easy Going
-// Write a for loop that will log the numbers 1 through 20.
+Easy Going
+Write a for loop that will log the numbers 1 through 20.
 
-// for(let i = 1; i <= 20; i++){
-//     console.log(i)
-// }
+for(let i = 1; i <= 20; i++){
+    console.log(i)
+}
 
 // Get Even
 // Write a for loop that will log only the even numbers in 0 through 200.
@@ -72,24 +72,24 @@
 // console.log(turtles.toUpperCase())
 
 // Methods, Revisited
-const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+//const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
 // for(let k in favMovies){
 //     if(favMovies[k] === 'Titanic'){
 //         console.log(k)
 //     }
 // }
-favMovies.sort()  //will change orgianl array
-console.log(favMovies)
-favMovies.pop()
-console.log(favMovies)
-favMovies.push("Guardians of the Galaxy")
-console.log(favMovies)
-favMovies.reverse()
-console.log(favMovies)
-favMovies.shift()
-console.log(favMovies)
-favMovies.unshift("Baby Shark")
-console.log(favMovies)
+// favMovies.sort()  //will change orgianl array
+// console.log(favMovies)
+// favMovies.pop()
+// console.log(favMovies)
+// favMovies.push("Guardians of the Galaxy")
+// console.log(favMovies)
+// favMovies.reverse()
+// console.log(favMovies)
+// favMovies.shift()
+// console.log(favMovies)
+// favMovies.unshift("Baby Shark")
+// console.log(favMovies)
 
 //splice"Django Unchained" and add "Avatar" (try finding the index of "Django Unchained", instead of counting it yourself) Thought question: did this permanently alter our array?
 // for (let k in favMovies){
@@ -97,5 +97,7 @@ console.log(favMovies)
 //         console.log(k)
 //     }
 // }
-console.log(favMovies.splice(16,0,"Avatar"))
-console.log(favMovies)
+// console.log(favMovies.splice(16,0,"Avatar"))
+// console.log(favMovies)
+//it permanently alter the array
+

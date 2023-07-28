@@ -123,11 +123,34 @@
 // }
 
 // Where is Waldo
-const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
-                    ["Lucinda", "Jacc", "Neff", "Snoop"],
-                    ["Petunia", ["Baked Goods", "Waldo"]]];
- whereIsWaldo.splice(1,1)  
- console.log(whereIsWaldo)    
- whereIsWaldo[1][2] = "No One" 
- console.log(whereIsWaldo)  
- console.log(whereIsWaldo[2][1][1])       
+// const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+//                     ["Lucinda", "Jacc", "Neff", "Snoop"],
+//                     ["Petunia", ["Baked Goods", "Waldo"]]];
+//  whereIsWaldo.splice(1,1)  
+//  console.log(whereIsWaldo)    
+//  whereIsWaldo[1][2] = "No One" 
+//  console.log(whereIsWaldo)  
+//  console.log(whereIsWaldo[2][1][1]) 
+
+// Excited Kitten
+//Write code that logs "Love me, pet me! HSSSSSS!" 20 times.
+// for(let i = 0; i < 20; i++){
+//     console.log( "Love me, pet me! HSSSSSS!" )
+// }
+
+//For every even number in your loop, log "...human...why you taking pictures of me?...", "...the catnip made me do it...", or "...why does the red dot always get away..." at random.
+
+
+kittyTalk = ["...human...why you taking pictures of me?...", "...the catnip made me do it...","...why does the red dot always get away..."]
+
+for(let i = 0; i < 20; i++){
+    if(i % 2 ===0){
+        // const j = function () {
+             Math.floor(Math.random() * 3)
+        //   }
+        // //   return j
+          console.log(kittyTalk[Math.floor(Math.random() * 3)])
+        }else{
+        console.log( "Love me, pet me! HSSSSSS!" )
+        }
+    } 

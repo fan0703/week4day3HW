@@ -1,11 +1,17 @@
+////////////////////////////////////////////////////////////////////////
 // Easy Going
+////////////////////////////////////////////////////////////////////////
+
 // Write a for loop that will log the numbers 1 through 20.
 
 // for(let i = 1; i <= 20; i++){
 //     console.log(i)
 // }
 
+////////////////////////////////////////////////////////////////////////
 // Get Even
+////////////////////////////////////////////////////////////////////////
+
 // Write a for loop that will log only the even numbers in 0 through 200.
 
 // Hint: Think about the increment expression.
@@ -16,7 +22,10 @@
 //     }
 // }
 
+////////////////////////////////////////////////////////////////////////
 // Fizz Buzz
+////////////////////////////////////////////////////////////////////////
+
 // This is a classic problem that you should get really comfortable solving. If you've solved it before, try to make it more elegant and short.
 
 // Write a javascript application that logs all numbers from 1 - 100.
@@ -34,7 +43,10 @@
 //     }   
 // }
 
+////////////////////////////////////////////////////////////////////////
 //Wild Wild Life
+////////////////////////////////////////////////////////////////////////
+
 // const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
 // const sharky = ["Sharky", "shark", 20, "Left Coast"]
 // const plantee = ["Plantee", "plant",  5000 , "Mordor"]
@@ -62,7 +74,10 @@
 // wolfy.unshift("Gameboy")
 // console.log(wolfy)
 
+////////////////////////////////////////////////////////////////////////
 // Yell at the Ninja Turtles  
+////////////////////////////////////////////////////////////////////////
+
 // const turtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
 // for(let k of turtles){
 //    console.log(k.toUpperCase()
@@ -71,7 +86,10 @@
 
 // console.log(turtles.toUpperCase())
 
+////////////////////////////////////////////////////////////////////////
 // Methods, Revisited
+////////////////////////////////////////////////////////////////////////
+
 // const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
 // for(let k in favMovies){
 //     if(favMovies[k] === 'Titanic'){
@@ -122,7 +140,10 @@
 //     }
 // }
 
+////////////////////////////////////////////////////////////////////////
 // Where is Waldo
+////////////////////////////////////////////////////////////////////////
+
 // const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
 //                     ["Lucinda", "Jacc", "Neff", "Snoop"],
 //                     ["Petunia", ["Baked Goods", "Waldo"]]];
@@ -132,7 +153,10 @@
 //  console.log(whereIsWaldo)  
 //  console.log(whereIsWaldo[2][1][1]) 
 
+////////////////////////////////////////////////////////////////////////
 // Excited Kitten
+////////////////////////////////////////////////////////////////////////
+
 //Write code that logs "Love me, pet me! HSSSSSS!" 20 times.
 // for(let i = 0; i < 20; i++){
 //     console.log( "Love me, pet me! HSSSSSS!" )
@@ -141,16 +165,27 @@
 //For every even number in your loop, log "...human...why you taking pictures of me?...", "...the catnip made me do it...", or "...why does the red dot always get away..." at random.
 
 
-kittyTalk = ["...human...why you taking pictures of me?...", "...the catnip made me do it...","...why does the red dot always get away..."]
+// kittyTalk = ["...human...why you taking pictures of me?...", "...the catnip made me do it...","...why does the red dot always get away..."]
 
-for(let i = 0; i < 20; i++){
-    if(i % 2 ===0){
-        // const j = function () {
-             Math.floor(Math.random() * 3)
-        //   }
-        // //   return j
-          console.log(kittyTalk[Math.floor(Math.random() * 3)])
-        }else{
-        console.log( "Love me, pet me! HSSSSSS!" )
-        }
-    } 
+// for(let i = 0; i < 20; i++){
+//     if(i % 2 ===0){
+//           Math.floor(Math.random() * 3)
+//           console.log(kittyTalk[Math.floor(Math.random() * 3)])
+//         }else{
+//         console.log( "Love me, pet me! HSSSSSS!" )
+//         }
+//     } 
+
+////////////////////////////////////////////////////////////////////////
+//Find the Median
+////////////////////////////////////////////////////////////////////////
+
+//Find the median number in the following numsarray, then console.log that number.
+const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+nums.sort()
+console.log(nums)
+const i = nums.length /2
+console.log(i)
+// console.log(nums[Math.floor(i)])
+const median = (nums[12]+nums[13])/2
+console.log(median)
